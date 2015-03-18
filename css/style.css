@@ -346,14 +346,14 @@ header {
     @media (min-width: 40.625em) {
       header ul.left {
         position: absolute;
-        top: 33px;
+        top: 7px;
         left: 0; } }
   header ul.right {
     display: inline; }
     @media (min-width: 40.625em) {
       header ul.right {
         position: absolute;
-        top: 33px;
+        top: 7px;
         right: 0; } }
   header li {
     display: inline; }

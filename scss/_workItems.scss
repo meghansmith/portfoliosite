@@ -1,10 +1,14 @@
 .workItem {
+	header{
+		border-bottom: 5px solid $silver;
+		margin: 0;
+	}
 	main{
 		//cbe5f0
-		background-color: #cbe5f0;
+		//background-color: #cbe5f0;
 		background-image: url(../images/cream-dust.png);
 		color: $dblue;
-		border-top: 5px solid $silver;
+		
 		text-align: center;
 
 		@include bp($small){
@@ -121,7 +125,7 @@
 
 			@include bp($hover){
 				&:hover{
-					color: #205e69;
+					color: #8d8b89;
 				}
 			}
 		}
@@ -145,7 +149,7 @@
 
 		@include bp($hover){
 			&:hover{
-				color: #205e69;
+				color: #8d8b89;
 			}
 		}
 		
@@ -159,7 +163,7 @@
 
 		@include bp($hover){
 			&:hover{
-				color: #205e69;
+				color: #8d8b89;
 			}
 		}
 		

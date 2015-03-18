@@ -634,11 +634,12 @@ footer {
         text-align: left;
         clear: left; } }
 
+.workItem header {
+  border-bottom: 5px solid #a6a3a1;
+  margin: 0; }
 .workItem main {
-  background-color: #cbe5f0;
   background-image: url(../images/cream-dust.png);
   color: #0b3156;
-  border-top: 5px solid #a6a3a1;
   text-align: center; }
   @media (min-width: 40.625em) {
     .workItem main {
@@ -724,7 +725,7 @@ footer {
   transition: all .3s ease; }
   @media (min-width: 64.0625em) {
     .workItem .viewWork a:hover {
-      color: #205e69; } }
+      color: #8d8b89; } }
 .workItem a.button {
   margin-bottom: 24px; }
 .workItem .otherWorks {
@@ -737,7 +738,7 @@ footer {
   transition: all .3s ease; }
   @media (min-width: 64.0625em) {
     .workItem a.nextProject:hover {
-      color: #205e69; } }
+      color: #8d8b89; } }
 .workItem a.lastProject {
   float: left;
   color: #0b3156;
@@ -746,6 +747,6 @@ footer {
   transition: all .3s ease; }
   @media (min-width: 64.0625em) {
     .workItem a.lastProject:hover {
-      color: #205e69; } }
+      color: #8d8b89; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -532,13 +532,20 @@ header {
         top: 108px; } }
     @media (min-width: 62.5em) {
       .about .skills {
-        right: 20%; } }
+        right: 20%;
+        width: 14%; } }
   .about .languages {
     margin-left: 5%; }
     @media (min-width: 40.625em) {
       .about .languages {
         margin-left: 0;
-        top: 420px; } }
+        top: 444px; } }
+    @media (min-width: 795px) {
+      .about .languages {
+        top: 396px; } }
+    @media (min-width: 957px) {
+      .about .languages {
+        top: 372px; } }
     @media (min-width: 62.5em) {
       .about .languages {
         top: 108px; } }

@@ -1,0 +1,137 @@
+.workItem {
+	main{
+		//cbe5f0
+		background-color: #cbe5f0;
+		background-image: url(../images/cream-dust.png);
+		color: $dblue;
+		border-top: 5px solid $silver;
+		text-align: center;
+
+		@include bp($small){
+			text-align: left;
+		}
+	}
+	.connect{
+		color: #cbe5f0;
+		a{
+			color: #cbe5f0;
+		}
+		.button {
+			border-color: #cbe5f0
+		}
+	}
+	section {
+		padding-bottom: 48px;
+	}
+	img {
+		max-width: 100%;
+		border: 3px solid $silver;
+		margin-bottom: 24px;
+
+		@include bp($workMed){
+			width: 68%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+	.imgTwo {
+		@include bp($workMed){
+			float: right;
+			margin-bottom: 60px;
+		}
+	}
+	.middleTwo{
+		@include bp(985px){
+			margin-top: 12px;
+		}
+		@include bp(1050px){
+			margin-top: 36px;
+		}
+	}	
+	h2{
+		margin-bottom: 12px;
+	}
+	
+	h3{
+		@include bp($workMed){
+			margin-top: 0;
+			padding-top: 0;
+		}
+	}
+
+	p{
+		margin-top: 0;
+		margin-bottom: 60px;
+
+	}
+	.intro {
+		font-family: $fontH;
+		font-weight: 300;
+		font-size: 24px;
+		margin-top: 12px;
+	}
+
+	.scope {
+		font-family: $fontH;
+		text-align: left;
+		display: block;
+	}
+	
+	.workDetail{
+		text-align: left;
+
+		@include bp($workMed){
+			display: inline-block;
+			width: 26%;
+			margin-left: 5%;
+		}
+	}
+	.workDetail2{
+		text-align: left;
+
+		@include bp($workMed){
+			float: left;
+			width: 25%;
+			margin-right: 5%;
+		}
+	}
+	.viewWork{
+		@include bp($workMed){
+			float: right;
+			width: 27%;
+			margin-left: 5%;
+			clear: right;
+		}
+		ul{
+			list-style: none;
+			padding:0;
+		}
+		li{
+			display: inline;
+			@include bp($workMed){
+				display: block;
+				padding-bottom: 5px;
+			}
+		}
+		a {
+			color: $dblue;
+			font-weight: 300;
+			padding: 10px 5px;
+			transition: all .3s ease;
+
+			@include bp($hover){
+				&:hover{
+					color: #205e69;
+				}
+			}
+		}
+	}
+	
+	
+	
+
+	a.button{
+		margin-bottom: 24px;
+	}
+
+}

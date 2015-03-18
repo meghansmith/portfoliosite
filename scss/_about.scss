@@ -1,0 +1,132 @@
+.about {
+	background-color: $lblue;
+	text-align: center;
+	position: relative;
+	padding-bottom: 229px + 48px + 48px;
+	color: $dgreen;
+
+
+	@include bp($small){
+		text-align: left;
+		padding-bottom: 48px;
+	}
+
+	@include bp (748em / 16){
+		padding-bottom: 72px;
+	}
+
+	@include bp(774em / 16){
+		padding-bottom: 96px;
+	}
+
+	@include bp(814em / 16){
+		padding-bottom: 120px;
+	}
+
+	@include bp($med){
+		padding-bottom: 60px;
+	}
+
+	p{
+		text-align: left;
+		font-weight: 400;
+
+		@include bp($small){
+			width: 68%;
+			
+			margin-right: 5%;
+		}
+
+		@include bp($med){
+			width: 60%;
+		}
+	}
+
+	a {
+		color: $dblue;
+		font-weight: 300;
+		line-height: 22px;
+		transition: all .3s ease;
+
+		@include bp($hover){
+			&:hover{
+				color: #205e69;
+			}
+		}
+	}
+
+	%aboutColumns {
+		width: 46%;
+		float: left;
+		text-align: left;
+
+		@include bp($small){
+			width: 22%;
+			position: absolute;
+			right: 4%;
+		}
+
+		@include bp($med){
+			width: 12%;
+		}
+
+		ul {
+			padding-left: 12%;
+			color: $dgreen;
+
+		}
+		
+	}
+
+	.skills {
+		@extend %aboutColumns;
+		margin-right: 3%;
+
+		@include bp($small){
+			margin-right: 0;
+			top: 108px;
+		}
+
+		@include bp($med){
+			right: 20%;
+		}
+	}
+	.languages {
+		@extend %aboutColumns;
+		margin-left: 5%;
+
+		@include bp($small){
+			margin-left: 0;
+			top: 420px ;
+		}
+		@include bp($med){
+			top: 108px;
+		}
+
+	}
+	
+	img {
+		border-radius: 50%;
+		width: 184px;
+		position: absolute;
+		bottom: -642px;
+		left: 50%;
+		margin-left: -92px;
+		border: 3px solid #8fb5ca;
+
+		@include bp(450em/16){
+			bottom: -612px;
+		}
+		@include bp(525em/16){
+			bottom: -564px;
+		}
+
+		@include bp($small){
+			
+			position: static;
+			float: left;
+			margin-left: 0;
+			margin-right: 24px;
+		}
+	}
+}

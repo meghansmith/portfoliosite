@@ -1,0 +1,99 @@
+header{
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 24px 2% 48px;
+	margin-bottom: -30px;
+
+	@include bp(500em / 16){
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+
+
+	h1{
+		margin-top: 0;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	ul.left {
+		display: inline;
+
+		@include bp($small){
+			position: absolute;
+			top: 33px;
+			left: 0;
+		}
+	}
+
+	ul.right {
+		display: inline;
+
+		@include bp($small){
+			position: absolute;
+			top: 33px;
+			right: 0;
+		}
+	}
+
+
+	li{
+		display: inline;
+	}
+	a{
+		text-transform: uppercase;
+		display: inline-block;
+		color: $dgreen;
+		font-weight: 300;
+		font-size: 20px;
+		padding: 13px 8px 13px;
+		transition: all .5s ease;
+		
+		@include bp(375em / 16){
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		@include bp(670em / 16){
+			padding-left: 16px;
+			padding-right: 16px;
+		}
+
+		@include bp($hover){
+			&:hover{
+				color: #32707b;
+			}
+		}
+	}
+	
+	p {
+		font-family: $fontH;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 30px;
+		color: $dgreen;
+		@include bp(374em / 16){
+			font-size: 20px;
+		}
+		@include bp($small){
+			font-size: 24px;
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+
+		@include bp($med){
+			font-size: 36px;
+			line-height: 54px;
+		}
+	}
+
+	div.headWrapper {
+		max-width: 660px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+}

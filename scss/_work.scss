@@ -1,0 +1,94 @@
+.work {
+	background-color: $dblue;
+	background-image: url("../images/egg-shell.png");
+	padding-bottom: 48px;
+	border-top: 5px solid $silver;
+	border-bottom: 5px solid $silver;
+	text-align: center;
+
+
+	h2 {
+		color: $lgreen;
+
+		@include bp($small){
+			text-align: left;
+		}
+
+	}
+	
+	h3{
+		color: $silver;
+		font-weight: 300;
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		padding-top: 12px;
+		margin-left: -400px;
+		width: 800px;
+		background-color: rgba(0,0,0,.7);
+		padding-bottom: 200px;
+
+		@include bp(375em / 16){
+	      top: 55%;
+	      padding-top: 20px;
+	    }
+		@include bp(450em / 16){
+	      padding-top: 30px;
+	    }
+		
+		@include bp(650em / 16) {
+			top: 45%;
+			padding-top: 12px;
+
+		}
+
+		@include bp(800em / 16) {
+			top: 55%;
+		}
+		@include bp(900em / 16) {
+			top: 60%;
+		}
+
+		@include bp($hover){
+			top: 100%;
+			transition: all .5s ease;
+		}
+	}
+	a:hover {
+		@include bp($hover){
+			h3{
+				top: 65%;
+			}
+			div{
+				border: 5px solid #6e7984;
+			}
+		}
+	}
+	a>div {
+	    border: 3px solid #435a71;
+	    border-radius: 50%;
+		overflow: hidden;
+		width: 100%;
+		max-width: 510px;
+		margin: 0 auto;
+		margin-bottom: 24px;
+		position: relative;
+		transition: all .8s ease;
+
+		@include bp($small){
+			display: inline-block;
+			width: 47%;
+		}
+		@include bp(900em / 16){
+			border-width: 5px;
+		}
+
+	}
+	@include bp($small){
+		.cff, .grok, .oneColumbia {
+			margin-right: 5%;
+		}
+	}
+
+
+}

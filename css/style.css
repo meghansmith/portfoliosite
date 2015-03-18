@@ -727,5 +727,25 @@ footer {
       color: #205e69; } }
 .workItem a.button {
   margin-bottom: 24px; }
+.workItem .otherWorks {
+  margin-bottom: 24px; }
+.workItem a.nextProject {
+  float: right;
+  color: #0b3156;
+  font-weight: 300;
+  padding: 10px 5px;
+  transition: all .3s ease; }
+  @media (min-width: 64.0625em) {
+    .workItem a.nextProject:hover {
+      color: #205e69; } }
+.workItem a.lastProject {
+  float: left;
+  color: #0b3156;
+  font-weight: 300;
+  padding: 10px 5px;
+  transition: all .3s ease; }
+  @media (min-width: 64.0625em) {
+    .workItem a.lastProject:hover {
+      color: #205e69; } }
 
 /*# sourceMappingURL=style.css.map */

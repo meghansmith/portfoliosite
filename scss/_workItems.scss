@@ -133,5 +133,36 @@
 	a.button{
 		margin-bottom: 24px;
 	}
+	.otherWorks{
+		margin-bottom: 24px;
+	}
+	a.nextProject{
+		float: right;
+		color: $dblue;
+		font-weight: 300;
+		padding: 10px 5px;
+		transition: all .3s ease;
+
+		@include bp($hover){
+			&:hover{
+				color: #205e69;
+			}
+		}
+		
+	}
+	a.lastProject{
+		float: left;
+		color: $dblue;
+		font-weight: 300;
+		padding: 10px 5px;
+		transition: all .3s ease;
+
+		@include bp($hover){
+			&:hover{
+				color: #205e69;
+			}
+		}
+		
+	}
 
 }

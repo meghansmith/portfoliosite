@@ -748,5 +748,7 @@ footer {
   @media (min-width: 64.0625em) {
     .workItem a.lastProject:hover {
       color: #8d8b89; } }
+.workItem p.copyright {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

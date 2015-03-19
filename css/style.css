@@ -755,6 +755,11 @@ footer {
   @media (min-width: 64.0625em) {
     .workItem a.lastProject:hover {
       color: #8d8b89; } }
+.workItem a > img {
+  transition: all .5s ease-out; }
+  @media (min-width: 64.0625em) {
+    .workItem a > img:hover {
+      border-color: #a9cfe0; } }
 .workItem .connect p {
   margin-bottom: 24px; }
 .workItem p.copyright {

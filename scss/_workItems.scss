@@ -168,6 +168,14 @@
 		}
 		
 	}
+	a>img {
+		transition: all .5s ease-out;
+		@include bp($hover){
+			&:hover{
+				border-color: $lblue;
+			}
+		}
+	}
 
 	.connect p{
 		margin-bottom: 24px;

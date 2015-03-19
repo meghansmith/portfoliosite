@@ -1,0 +1,16 @@
+.process {
+
+	a {
+		color: $dblue;
+		font-weight: 300;
+		padding: 10px 5px;
+		transition: all .3s ease;
+		line-height: 24px;
+
+		@include bp($hover){
+			&:hover{
+				color: #8d8b89;
+			}
+		}
+	}
+}

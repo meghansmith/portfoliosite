@@ -758,4 +758,12 @@ footer {
 .workItem p.copyright {
   margin-bottom: 0; }
 
-/*# sourceMappingURL=style.css.map */
+.process a {
+  color: #0b3156;
+  font-weight: 300;
+  padding: 10px 5px;
+  transition: all .3s ease;
+  line-height: 24px; }
+  @media (min-width: 64.0625em) {
+    .process a:hover {
+      color: #8d8b89; } }

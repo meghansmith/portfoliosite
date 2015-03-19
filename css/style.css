@@ -755,13 +755,19 @@ footer {
   @media (min-width: 64.0625em) {
     .workItem a.lastProject:hover {
       color: #8d8b89; } }
+.workItem .connect p {
+  margin-bottom: 24px; }
 .workItem p.copyright {
   margin-bottom: 0; }
 
-.process p.intro {
+.process .processWrapper p.intro {
   margin-left: 0;
   width: 100%;
-  margin-bottom: 48px; }
+  margin-bottom: 48px;
+  text-align: center; }
+  @media (min-width: 40.625em) {
+    .process .processWrapper p.intro {
+      text-align: left; } }
 .process a {
   color: #0b3156;
   font-weight: 300;
@@ -770,10 +776,11 @@ footer {
   @media (min-width: 64.0625em) {
     .process a:hover {
       color: #8d8b89; } }
-.process p {
-  margin-bottom: 0; }
+.process .processWrapper p {
+  margin-bottom: 0;
+  text-align: left; }
   @media (min-width: 53.125em) {
-    .process p {
+    .process .processWrapper p {
       display: inline-block;
       width: 30%; } }
 @media (min-width: 53.125em) {

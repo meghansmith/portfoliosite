@@ -1,8 +1,13 @@
 .process {
-	p.intro {
+	.processWrapper p.intro {
 		margin-left: 0;
 		width: 100%;
 		margin-bottom: 48px;
+		text-align: center;
+
+		@include bp($small){
+			text-align: left;
+		}
 	}
 	a {
 		color: $dblue;
@@ -16,8 +21,9 @@
 			}
 		}
 	}
-	p {
+	.processWrapper p {
 		margin-bottom: 0;
+		text-align: left;
 		@include bp($workMed){
 			display: inline-block;
 			width: 30%;

@@ -372,6 +372,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/p-code.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73813,
+		"inputAbbreviatedPath": "\/images\/p-code.jpg",
+		"outputAbbreviatedPath": "\/images\/p-code.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/p-mock-up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87302,
+		"inputAbbreviatedPath": "\/images\/p-mock-up.jpg",
+		"outputAbbreviatedPath": "\/images\/p-mock-up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/p-repeat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84959,
+		"inputAbbreviatedPath": "\/images\/p-repeat.jpg",
+		"outputAbbreviatedPath": "\/images\/p-repeat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/p-research.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61753,
+		"inputAbbreviatedPath": "\/images\/p-research.jpg",
+		"outputAbbreviatedPath": "\/images\/p-research.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/p-sketch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59057,
+		"inputAbbreviatedPath": "\/images\/p-sketch.jpg",
+		"outputAbbreviatedPath": "\/images\/p-sketch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/p-testing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51455,
+		"inputAbbreviatedPath": "\/images\/p-testing.jpg",
+		"outputAbbreviatedPath": "\/images\/p-testing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/p-wireframe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64035,
+		"inputAbbreviatedPath": "\/images\/p-wireframe.jpg",
+		"outputAbbreviatedPath": "\/images\/p-wireframe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/paisley.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -475,7 +475,7 @@ header {
     width: 100%;
     max-width: 510px;
     margin: 0 auto;
-    margin-bottom: 24px;
+    margin-bottom: 36px;
     position: relative;
     transition: all .8s ease; }
     @media (min-width: 40.625em) {

@@ -423,7 +423,8 @@ header {
   border-bottom: 5px solid #a6a3a1;
   text-align: center; }
   .work h2 {
-    color: #bbdddb; }
+    color: #bbdddb;
+    margin-bottom: 48px; }
     @media (min-width: 40.625em) {
       .work h2 {
         text-align: left; } }

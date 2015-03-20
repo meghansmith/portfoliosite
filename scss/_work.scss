@@ -9,6 +9,7 @@
 
 	h2 {
 		color: $lgreen;
+		margin-bottom: 48px;
 
 		@include bp($small){
 			text-align: left;

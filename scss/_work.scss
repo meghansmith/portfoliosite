@@ -28,6 +28,7 @@
 		background-color: rgba(0,0,0,.7);
 		padding-bottom: 200px;
 
+
 		@include bp(375em / 16){
 	      top: 55%;
 	      padding-top: 20px;
@@ -41,16 +42,27 @@
 			padding-top: 12px;
 
 		}
+		@include bp(650em / 16) {
+			top: 45%;
+			padding-top: 20px;
+
+		}
 
 		@include bp(800em / 16) {
 			top: 55%;
+			padding-top:12px;
 		}
 		@include bp(900em / 16) {
 			top: 60%;
 		}
+		@include bp(1000em / 16) {
+			padding-top: 20px;
+
+		}
 
 		@include bp($hover){
 			top: 100%;
+			padding-top: 14px;
 			transition: all .5s ease;
 		}
 	}
@@ -60,13 +72,13 @@
 				top: 65%;
 			}
 			div{
-				border: 5px solid #6e7984;
+				border: 3px solid #6e7984;
 			}
 		}
 	}
 	a>div {
 	    border: 3px solid #435a71;
-	    border-radius: 50%;
+	    //border-radius: 50%;
 		overflow: hidden;
 		width: 100%;
 		max-width: 510px;
@@ -80,7 +92,7 @@
 			width: 47%;
 		}
 		@include bp(900em / 16){
-			border-width: 5px;
+			//border-width: 5px;
 		}
 
 	}

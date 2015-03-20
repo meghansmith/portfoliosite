@@ -181,6 +181,9 @@ p, ul, ol, {
     background-image: url("../images/logo.png");
     text-indent: -9999px;
     margin: 0 auto;
+    &:after{
+      display: none;
+    }
 }
 img {
     max-width: 100%;

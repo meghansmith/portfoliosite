@@ -52,6 +52,22 @@ header{
 		font-size: 20px;
 		padding: 13px 8px 13px;
 		transition: all .5s ease;
+		text-decoration: none;
+		position: relative;
+
+		&:after{
+			content: "";
+			width: 68%;
+			margin: 0 auto;
+			border-bottom: 2px solid $dgreen;
+			position: absolute;
+			left: 16%;
+			bottom: 10px;
+		}
+
+
+
+
 		
 		@include bp(375em / 16){
 			padding-left: 10px;

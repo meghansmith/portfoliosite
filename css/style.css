@@ -153,6 +153,8 @@ p, ul, ol {
   background-image: url("../images/logo.png");
   text-indent: -9999px;
   margin: 0 auto; }
+  .logoReplace a:after {
+    display: none; }
 
 img {
   max-width: 100%; }
@@ -364,7 +366,17 @@ header {
     font-weight: 300;
     font-size: 20px;
     padding: 13px 8px 13px;
-    transition: all .5s ease; }
+    transition: all .5s ease;
+    text-decoration: none;
+    position: relative; }
+    header a:after {
+      content: "";
+      width: 68%;
+      margin: 0 auto;
+      border-bottom: 2px solid #074752;
+      position: absolute;
+      left: 16%;
+      bottom: 10px; }
     @media (min-width: 23.4375em) {
       header a {
         padding-left: 10px;
@@ -433,24 +445,32 @@ header {
       .work h3 {
         top: 45%;
         padding-top: 12px; } }
+    @media (min-width: 40.625em) {
+      .work h3 {
+        top: 45%;
+        padding-top: 20px; } }
     @media (min-width: 50em) {
       .work h3 {
-        top: 55%; } }
+        top: 55%;
+        padding-top: 12px; } }
     @media (min-width: 56.25em) {
       .work h3 {
         top: 60%; } }
+    @media (min-width: 62.5em) {
+      .work h3 {
+        padding-top: 20px; } }
     @media (min-width: 64.0625em) {
       .work h3 {
         top: 100%;
+        padding-top: 14px;
         transition: all .5s ease; } }
   @media (min-width: 64.0625em) {
     .work a:hover h3 {
       top: 65%; }
     .work a:hover div {
-      border: 5px solid #6e7984; } }
+      border: 3px solid #6e7984; } }
   .work a > div {
     border: 3px solid #435a71;
-    border-radius: 50%;
     overflow: hidden;
     width: 100%;
     max-width: 510px;
@@ -462,9 +482,6 @@ header {
       .work a > div {
         display: inline-block;
         width: 47%; } }
-    @media (min-width: 56.25em) {
-      .work a > div {
-        border-width: 5px; } }
   @media (min-width: 40.625em) {
     .work .leftWork {
       margin-right: 5%; } }
@@ -550,7 +567,6 @@ header {
       .about .languages {
         top: 108px; } }
   .about img {
-    border-radius: 50%;
     width: 184px;
     position: absolute;
     bottom: -642px;
@@ -695,7 +711,9 @@ footer {
 .workItem .scope {
   font-family: Oswald, sans-serif;
   text-align: left;
-  display: block; }
+  display: block;
+  font-size: 1.1em;
+  padding-bottom: 24px; }
 .workItem .workDetail {
   text-align: left; }
   @media (min-width: 53.125em) {

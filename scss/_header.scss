@@ -63,6 +63,11 @@ header{
 			position: absolute;
 			left: 16%;
 			bottom: 10px;
+			transition: all .5s ease;
+
+			@include bp($hover){
+				border-color: #32707b;
+			}
 		}
 
 

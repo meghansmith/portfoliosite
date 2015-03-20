@@ -376,7 +376,11 @@ header {
       border-bottom: 2px solid #074752;
       position: absolute;
       left: 16%;
-      bottom: 10px; }
+      bottom: 10px;
+      transition: all .5s ease; }
+      @media (min-width: 64.0625em) {
+        header a:after {
+          border-color: #32707b; } }
     @media (min-width: 23.4375em) {
       header a {
         padding-left: 10px;

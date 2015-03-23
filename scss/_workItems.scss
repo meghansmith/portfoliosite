@@ -80,7 +80,7 @@
 		font-family: $fontH;
 		text-align: left;
 		display: block;
-		font-size: 1.1em;
+		font-size: 20px;
 		padding-bottom: 24px;
 	}
 	
@@ -102,7 +102,11 @@
 			margin-right: 5%;
 		}
 	}
+	div.silver{
+		background-color: $silver;
+	}
 	.viewWork{
+
 		@include bp($workMed){
 			float: right;
 			width: 27%;

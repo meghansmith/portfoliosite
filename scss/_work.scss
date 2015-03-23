@@ -62,15 +62,16 @@
 		}
 
 		@include bp($hover){
-			top: 100%;
+			top: 65%;
 			padding-top: 14px;
+
 			transition: all .5s ease;
 		}
 	}
 	a:hover {
 		@include bp($hover){
 			h3{
-				top: 65%;
+				color: #d8d6d5;
 			}
 			div{
 				border: 3px solid #6e7984;

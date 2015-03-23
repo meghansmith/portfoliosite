@@ -167,9 +167,12 @@ img {
 .bold {
   font-weight: 700; }
 
+p > a {
+  font-family: Lato, sans-serif; }
+
 section {
-  padding-left: 2%;
-  padding-right: 2%; }
+  padding-left: 4%;
+  padding-right: 4%; }
   @media (min-width: 31.25em) {
     section {
       padding-left: 4%;
@@ -180,7 +183,6 @@ section {
 
 .button {
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
   padding: 10px 20px;
   border: 2px solid #a9cfe0;
@@ -378,9 +380,8 @@ header {
       left: 16%;
       bottom: 10px;
       transition: all .5s ease; }
-      @media (min-width: 64.0625em) {
-        header a:after {
-          border-color: #32707b; } }
+    header a:hover:after {
+      border-color: #2d7885; }
     @media (min-width: 23.4375em) {
       header a {
         padding-left: 10px;
@@ -391,7 +392,7 @@ header {
         padding-right: 16px; } }
     @media (min-width: 64.0625em) {
       header a:hover {
-        color: #32707b; } }
+        color: #2d7885; } }
   header p {
     font-family: Oswald, sans-serif;
     font-size: 18px;
@@ -466,12 +467,12 @@ header {
         padding-top: 20px; } }
     @media (min-width: 64.0625em) {
       .work h3 {
-        top: 100%;
+        top: 65%;
         padding-top: 14px;
         transition: all .5s ease; } }
   @media (min-width: 64.0625em) {
     .work a:hover h3 {
-      top: 65%; }
+      color: #d8d6d5; }
     .work a:hover div {
       border: 3px solid #6e7984; } }
   .work a > div {
@@ -526,8 +527,6 @@ header {
         width: 60%; } }
   .about a {
     color: #0b3156;
-    font-weight: 300;
-    line-height: 22px;
     transition: all .3s ease; }
     @media (min-width: 64.0625em) {
       .about a:hover {
@@ -575,7 +574,7 @@ header {
   .about img {
     width: 184px;
     position: absolute;
-    bottom: -642px;
+    bottom: -662px;
     left: 50%;
     margin-left: -92px;
     border: 3px solid #8fb5ca; }
@@ -590,7 +589,8 @@ header {
         position: static;
         float: left;
         margin-left: 0;
-        margin-right: 24px; } }
+        margin-right: 20px;
+        margin-top: 5px; } }
 
 .connect {
   background-color: #074752;
@@ -622,7 +622,6 @@ header {
   .connect a {
     color: #a9cfe0;
     font-weight: 300;
-    line-height: 22px;
     transition: all .3s ease; }
     @media (min-width: 64.0625em) {
       .connect a:hover {
@@ -718,7 +717,7 @@ footer {
   font-family: Oswald, sans-serif;
   text-align: left;
   display: block;
-  font-size: 1.1em;
+  font-size: 20px;
   padding-bottom: 24px; }
 .workItem .workDetail {
   text-align: left; }
@@ -734,6 +733,8 @@ footer {
       float: left;
       width: 25%;
       margin-right: 5%; } }
+.workItem div.silver {
+  background-color: #a6a3a1; }
 @media (min-width: 53.125em) {
   .workItem .viewWork {
     float: right;
@@ -799,9 +800,7 @@ footer {
       text-align: left; } }
 .process .wrapper a {
   color: #0b3156;
-  font-weight: 300;
-  transition: all .3s ease;
-  line-height: 24px; }
+  transition: all .3s ease; }
   @media (min-width: 64.0625em) {
     .process .wrapper a:hover {
       color: #8d8b89; } }
@@ -811,21 +810,25 @@ footer {
   @media (min-width: 53.125em) {
     .process .processWrapper p {
       display: inline-block;
-      width: 30%; } }
+      width: 31%; } }
 @media (min-width: 53.125em) {
   .process img {
-    width: 64%;
+    width: 63%;
     display: inline-block;
     vertical-align: top; } }
 .process .imageLeft {
   clear: both;
   overflow: hidden;
-  margin-bottom: 48px; }
+  margin-bottom: 60px; }
   @media (min-width: 53.125em) {
     .process .imageLeft p {
-      margin-left: 5%; } }
+      margin-left: 5%;
+      text-align: justify; } }
 .process .imageRight {
-  margin-bottom: 48px; }
+  margin-bottom: 60px; }
+  .process .imageRight img {
+    margin-right: 8px; }
   @media (min-width: 53.125em) {
     .process .imageRight p {
-      margin-right: 5%; } }
+      margin-right: 5%;
+      text-align: justify; } }

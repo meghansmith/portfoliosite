@@ -64,12 +64,11 @@ header{
 			left: 16%;
 			bottom: 10px;
 			transition: all .5s ease;
-
-			@include bp($hover){
-				border-color: #32707b;
-			}
 		}
+		&:hover:after{
 
+			border-color: #2d7885;
+		}
 
 
 
@@ -85,7 +84,7 @@ header{
 
 		@include bp($hover){
 			&:hover{
-				color: #32707b;
+				color: #2d7885;
 			}
 		}
 	}

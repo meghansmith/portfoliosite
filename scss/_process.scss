@@ -11,9 +11,7 @@
 	}
 	.wrapper a {
 		color: $dblue;
-		font-weight: 300;
 		transition: all .3s ease;
-		line-height: 24px;
 
 		@include bp($hover){
 			&:hover{
@@ -26,36 +24,44 @@
 		text-align: left;
 		@include bp($workMed){
 			display: inline-block;
-			width: 30%;
+			width: 31%;
+
 		}
 	}
 
 	img{
 		@include bp($workMed){
-			width: 64%;
+			width: 63%;
 			display: inline-block;
 			vertical-align: top;
+
 		}
 	}
 
 	.imageLeft {
 		clear: both;
 		overflow: hidden;
-		margin-bottom: 48px;
+		margin-bottom: 60px;
+
 
 		p{
 			@include bp($workMed){
 				margin-left: 5%;
+				text-align: justify;
 			}
 		}
 
 	}
 	.imageRight{
-		margin-bottom: 48px;
+		margin-bottom: 60px;
+		img{
+			margin-right: 8px;
+		}
 		
 		p{
 			@include bp($workMed){
 				margin-right: 5%;
+				text-align: justify;
 			}
 		}
 	}

@@ -773,6 +773,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/lawyersite.html": {
+<<<<<<< HEAD
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -786,6 +787,12 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/leatherhead.html",
+=======
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lawyersite.html",
+>>>>>>> gh-pages
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -1,9 +1,10 @@
-.about {
+section.about {
 	background-color: $lblue;
 	text-align: center;
 	position: relative;
 	padding-bottom: 229px + 48px + 48px;
 	color: $dgreen;
+	border-top: 5px solid $silver;
 
 
 	@include bp($small){

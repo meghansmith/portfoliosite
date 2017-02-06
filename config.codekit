@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/center-for-fathers.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -228,7 +237,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23208,
+		"initialSize": 19033,
 		"inputAbbreviatedPath": "\/images\/beer-logos.jpg",
 		"outputAbbreviatedPath": "\/images\/beer-logos.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -311,6 +320,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/design.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122392,
+		"inputAbbreviatedPath": "\/images\/design.jpg",
+		"outputAbbreviatedPath": "\/images\/design.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/develop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227641,
+		"inputAbbreviatedPath": "\/images\/develop.jpg",
+		"outputAbbreviatedPath": "\/images\/develop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/develop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 599330,
+		"inputAbbreviatedPath": "\/images\/develop.png",
+		"outputAbbreviatedPath": "\/images\/develop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/egg-shell.png": {
 		"fileType": 32768,
@@ -421,6 +463,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/maintenance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181674,
+		"inputAbbreviatedPath": "\/images\/maintenance.jpg",
+		"outputAbbreviatedPath": "\/images\/maintenance.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/murphy-home.jpg": {
 		"fileType": 16384,
@@ -576,6 +629,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/process-wordpress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47225,
+		"inputAbbreviatedPath": "\/images\/process-wordpress.jpg",
+		"outputAbbreviatedPath": "\/images\/process-wordpress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/profile-photo-bw.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -591,7 +655,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 67141,
+		"initialSize": 64247,
 		"inputAbbreviatedPath": "\/images\/sgl-events.jpg",
 		"outputAbbreviatedPath": "\/images\/sgl-events.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -613,7 +677,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 57832,
+		"initialSize": 47468,
 		"inputAbbreviatedPath": "\/images\/sgl-pages.jpg",
 		"outputAbbreviatedPath": "\/images\/sgl-pages.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -773,7 +837,6 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/lawyersite.html": {
-<<<<<<< HEAD
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -787,12 +850,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/leatherhead.html",
-=======
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lawyersite.html",
->>>>>>> gh-pages
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -802,6 +859,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/onecolumbia.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -948,6 +1014,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_offerings.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_offerings.scss",
+		"outputAbbreviatedPath": "\/css\/_offerings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_process.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1046,7 +1128,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Portfolio Backup",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_darkGray"
 	},
 "projectSettings": {
@@ -1610,7 +1692,7 @@
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
 	"markdownCriticStyle": 0,
-	"markdownEnableFootnotes": 0,
+	"markdownEnableFootnotes": 1,
 	"markdownEnableLabels": 1,
 	"markdownEnableSmartQuotes": 1,
 	"markdownEscapeLineBreaks": 0,

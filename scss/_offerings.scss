@@ -1,0 +1,73 @@
+section.offerings {
+
+	p{
+  		margin-bottom: 0;
+  		text-align: left;
+
+  		@include bp($workMed){
+  			
+  			display: inline-block;
+  			width: 65%;
+  		}
+  	}
+
+	ul{
+  		margin-top: 0;
+  		margin-bottom: 0;
+  		text-align: left;
+
+  		@include bp($workMed){
+  			display: inline-block;
+  			width: 65%;
+  		}
+	}
+	h2 {
+  		//font-size: 24px;
+  	}
+  	img {
+  		border: none;
+  		max-width: 100%;
+
+  		@include bp($workMed){
+  		
+  			width: 30%;
+  			float: left;
+  			margin-right: 30px;
+  			}
+  		
+  	}
+  	img.imgRight {
+  		@include bp($workMed){
+  			float: right;
+  			margin-left: 30px;
+  		}
+  	}
+  	p.imgRight{
+  			@include bp($workMed){
+  				width: 62%;
+  			}	
+	}
+	ul.imgRight{
+  			@include bp($workMed){
+  				width: 62%;
+  			}	
+	}
+  	
+  	div.final{
+  		p{
+  			width: 100%;
+  		}
+  		@include bp($small){
+			max-width: 650px;
+			
+		}
+  	}
+	div.imgRight{
+		margin-top: 5px;
+		@include bp(925px){
+			margin-top: 40px;
+
+		}
+	}
+
+}

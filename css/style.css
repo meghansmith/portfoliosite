@@ -419,6 +419,9 @@ header {
 section.offerings p {
   margin-bottom: 0;
   text-align: left; }
+  @media (min-width: 40.625em) {
+    section.offerings p {
+      text-align: left; } }
   @media (min-width: 53.125em) {
     section.offerings p {
       display: inline-block;
@@ -427,6 +430,8 @@ section.offerings ul {
   margin-top: 0;
   margin-bottom: 0;
   text-align: left; }
+  section.offerings ul li {
+    text-align: left; }
   @media (min-width: 53.125em) {
     section.offerings ul {
       display: inline-block;

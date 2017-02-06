@@ -1,8 +1,12 @@
 section.offerings {
 
+
 	p{
   		margin-bottom: 0;
   		text-align: left;
+      @include bp($small){
+        text-align: left;
+      }
 
   		@include bp($workMed){
   			
@@ -15,6 +19,9 @@ section.offerings {
   		margin-top: 0;
   		margin-bottom: 0;
   		text-align: left;
+      li{
+        text-align: left;
+      }
 
   		@include bp($workMed){
   			display: inline-block;

@@ -136,19 +136,56 @@
 				}
 			}
 		}
+
 	}
 	
 	
-	
+	.lastDetail{
+		text-align: left;
+
+
+		@include bp($workMed){
+			float: right;
+			width: 27%;
+			margin-left: 5%;
+			clear: right;
+		}
+		ul{
+			list-style: none;
+			padding:0;
+		}
+		li{
+			//display: inline;
+			@include bp($workMed){
+				display: block;
+				padding-bottom: 5px;
+			}
+		}
+		a {
+			color: $dblue;
+			font-weight: 300;
+			padding: 10px 5px;
+			transition: all .3s ease;
+
+			@include bp($hover){
+				&:hover{
+					color: #8d8b89;
+				}
+			}
+		}
+		
+	}
 
 	a.button{
 		margin-bottom: 24px;
 	}
 	.otherWorks{
 		margin-bottom: 24px;
+
 	}
 	a.nextProject{
 		float: right;
+		
 		color: $dblue;
 		font-weight: 300;
 		padding: 10px 5px;

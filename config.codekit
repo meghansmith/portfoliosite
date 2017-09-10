@@ -20,6 +20,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/aes.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/aes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/center-for-fathers.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -224,6 +233,15 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/dustymoth.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dustymoth.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/grok.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -232,6 +250,48 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/harbison.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/harbison.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/aesHome.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42610,
+		"inputAbbreviatedPath": "\/images\/aesHome.jpg",
+		"outputAbbreviatedPath": "\/images\/aesHome.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/aesMulti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43928,
+		"inputAbbreviatedPath": "\/images\/aesMulti.jpg",
+		"outputAbbreviatedPath": "\/images\/aesMulti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/aesOffice.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35282,
+		"inputAbbreviatedPath": "\/images\/aesOffice.jpg",
+		"outputAbbreviatedPath": "\/images\/aesOffice.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/beer-logos.jpg": {
 		"fileType": 16384,
@@ -354,6 +414,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/dmCub.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42728,
+		"inputAbbreviatedPath": "\/images\/dmCub.jpg",
+		"outputAbbreviatedPath": "\/images\/dmCub.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dmDusty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39752,
+		"inputAbbreviatedPath": "\/images\/dmDusty.jpg",
+		"outputAbbreviatedPath": "\/images\/dmDusty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/egg-shell.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -397,6 +479,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/harbisonHome.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42317,
+		"inputAbbreviatedPath": "\/images\/harbisonHome.jpg",
+		"outputAbbreviatedPath": "\/images\/harbisonHome.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/harbisonMenus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36085,
+		"inputAbbreviatedPath": "\/images\/harbisonMenus.jpg",
+		"outputAbbreviatedPath": "\/images\/harbisonMenus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/harbisonWordpress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32427,
+		"inputAbbreviatedPath": "\/images\/harbisonWordpress.jpg",
+		"outputAbbreviatedPath": "\/images\/harbisonWordpress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/header.jpg": {
 		"fileType": 16384,
@@ -728,6 +843,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/w-dustymoth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28585,
+		"inputAbbreviatedPath": "\/images\/w-dustymoth.jpg",
+		"outputAbbreviatedPath": "\/images\/w-dustymoth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/w-grok.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -738,6 +864,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/w-harbison.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24055,
+		"inputAbbreviatedPath": "\/images\/w-harbison.jpg",
+		"outputAbbreviatedPath": "\/images\/w-harbison.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/w-murphy.jpg": {
 		"fileType": 16384,

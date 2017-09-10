@@ -807,6 +807,29 @@ footer {
   @media (min-width: 64.0625em) {
     .workItem .viewWork a:hover {
       color: #8d8b89; } }
+.workItem .lastDetail {
+  text-align: left; }
+  @media (min-width: 53.125em) {
+    .workItem .lastDetail {
+      float: right;
+      width: 27%;
+      margin-left: 5%;
+      clear: right; } }
+  .workItem .lastDetail ul {
+    list-style: none;
+    padding: 0; }
+  @media (min-width: 53.125em) {
+    .workItem .lastDetail li {
+      display: block;
+      padding-bottom: 5px; } }
+  .workItem .lastDetail a {
+    color: #0b3156;
+    font-weight: 300;
+    padding: 10px 5px;
+    transition: all .3s ease; }
+    @media (min-width: 64.0625em) {
+      .workItem .lastDetail a:hover {
+        color: #8d8b89; } }
 .workItem a.button {
   margin-bottom: 24px; }
 .workItem .otherWorks {
